@@ -32,13 +32,15 @@ public class App {
             {
                 System.out.println("The result is " + sub);
             }
-
+        
+            in.close();
+            
         // int result = 0;
         // result = Integer.parseInt(answer1) + Integer.parseInt(answer2);
         //     if (result > 10)
         //     {
         //         System.out.println("The value is greater than 10. It is " + result);
         //     }
-
+        
     }
 }
